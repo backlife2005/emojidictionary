@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F770CDFA1E4DDC8C00EB4112 /* definitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F770CDF91E4DDC8C00EB4112 /* definitionViewController.swift */; };
 		F7D4F32E1E4D9F0100A88A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4F32D1E4D9F0100A88A2B /* AppDelegate.swift */; };
 		F7D4F3301E4D9F0100A88A2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4F32F1E4D9F0100A88A2B /* ViewController.swift */; };
 		F7D4F3331E4D9F0100A88A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D4F3311E4D9F0100A88A2B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F770CDF91E4DDC8C00EB4112 /* definitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = definitionViewController.swift; sourceTree = "<group>"; };
 		F7D4F32A1E4D9F0100A88A2B /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D4F32D1E4D9F0100A88A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D4F32F1E4D9F0100A88A2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				F7D4F32D1E4D9F0100A88A2B /* AppDelegate.swift */,
 				F7D4F32F1E4D9F0100A88A2B /* ViewController.swift */,
+				F770CDF91E4DDC8C00EB4112 /* definitionViewController.swift */,
 				F7D4F3311E4D9F0100A88A2B /* Main.storyboard */,
 				F7D4F3341E4D9F0100A88A2B /* Assets.xcassets */,
 				F7D4F3361E4D9F0100A88A2B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F770CDFA1E4DDC8C00EB4112 /* definitionViewController.swift in Sources */,
 				F7D4F3301E4D9F0100A88A2B /* ViewController.swift in Sources */,
 				F7D4F32E1E4D9F0100A88A2B /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				F7D4F33E1E4D9F0100A88A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

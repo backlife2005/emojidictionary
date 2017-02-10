@@ -37,7 +37,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "moveSegway", sender: "👮")
+        let emoji = emojis[indexPath.row]
+        performSegue(withIdentifier: "moveSegway", sender: emoji)
+    }
+    
+    // I had to use the below version of following function, which is
+    // deferent from the one on Nick's video and also adds (as Any)
+    // after sender in print function.
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // print(sender as Any )
+        
     }
     
     override func didReceiveMemoryWarning() {
