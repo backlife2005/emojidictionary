@@ -21,6 +21,7 @@ class definitionViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print(emoji)
+        emojiLable.text = emoji
     }
 
     override func didReceiveMemoryWarning() {
