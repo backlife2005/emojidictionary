@@ -10,6 +10,9 @@ import UIKit
 
 class definitionViewController: UIViewController {
     
+    
+    @IBOutlet weak var emojiLable: UILabel!
+    
     var emoji = "NO EMOJI"
 
     override func viewDidLoad() {
