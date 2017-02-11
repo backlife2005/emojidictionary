@@ -46,7 +46,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     // after sender in print function.
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // print(sender as Any )
+         print(sender as Any )
         
     }
     
