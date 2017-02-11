@@ -25,7 +25,20 @@ class definitionViewController: UIViewController {
         
         print(emoji)
         emojiLable.text = emoji
-        definitionLable.text = "Hello"
+        
+        if emoji == "😎" {
+            definitionLable.text = "A smilling face with sunglasses"
+        }
+
+        if emoji == "😍" {
+            definitionLable.text = "A smilling face with heart-shaped eyes"
+        }
+        
+        if emoji == "😡" {
+            definitionLable.text = "A pouting face"
+        }
+        
+        // definitionLable.text = "Hello"
     }
 
     override func didReceiveMemoryWarning() {
