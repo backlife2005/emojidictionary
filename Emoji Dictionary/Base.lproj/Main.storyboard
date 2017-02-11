@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="307.5" y="34.859154929577464"/>
+            <point key="canvasLocation" x="255" y="35"/>
         </scene>
         <!--Definition View Controller-->
         <scene sceneID="BUr-wX-U12">
@@ -72,7 +72,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="PjH-fH-T74" firstAttribute="top" secondItem="P0T-Co-8UW" secondAttribute="bottom" constant="34" id="9yq-wp-kAz"/>
-                            <constraint firstItem="PjH-fH-T74" firstAttribute="centerX" secondItem="PrU-mG-b5O" secondAttribute="centerX" constant="56" id="HaE-2p-nnJ"/>
                             <constraint firstItem="P0T-Co-8UW" firstAttribute="centerX" secondItem="PrU-mG-b5O" secondAttribute="centerX" id="VUJ-fy-aQs"/>
                             <constraint firstItem="P0T-Co-8UW" firstAttribute="top" secondItem="BI6-Jl-ibf" secondAttribute="bottom" constant="58" id="eQg-bj-q6F"/>
                             <constraint firstItem="PjH-fH-T74" firstAttribute="centerX" secondItem="PrU-mG-b5O" secondAttribute="centerX" id="w9u-1q-iaJ"/>
@@ -81,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TaL-fr-9cY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1863.75" y="34.859154929577464"/>
+            <point key="canvasLocation" x="1174" y="35"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="08n-bH-iKr">
