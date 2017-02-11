@@ -13,6 +13,9 @@ class definitionViewController: UIViewController {
     
     @IBOutlet weak var emojiLable: UILabel!
     
+    
+    @IBOutlet weak var definitionLable: UILabel!
+    
     var emoji = "NO EMOJI"
 
     override func viewDidLoad() {
@@ -22,6 +25,7 @@ class definitionViewController: UIViewController {
         
         print(emoji)
         emojiLable.text = emoji
+        definitionLable.text = "Hello"
     }
 
     override func didReceiveMemoryWarning() {
