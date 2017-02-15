@@ -16,6 +16,12 @@ class definitionViewController: UIViewController {
     
     @IBOutlet weak var definitionLable: UILabel!
     
+    
+    @IBOutlet weak var catagoryLable: UILabel!
+    
+    
+    @IBOutlet weak var birthYearLable: UILabel!
+    
     var emoji = "NO EMOJI"
 
     override func viewDidLoad() {

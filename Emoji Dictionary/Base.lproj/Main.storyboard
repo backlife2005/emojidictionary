@@ -94,6 +94,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthYearLable" destination="e3R-py-Y3E" id="r89-XQ-cKP"/>
+                        <outlet property="catagoryLable" destination="vEs-Sr-XM3" id="8Sn-Si-Myu"/>
                         <outlet property="definitionLable" destination="PjH-fH-T74" id="l15-7s-Loa"/>
                         <outlet property="emojiLable" destination="P0T-Co-8UW" id="WkB-35-NnT"/>
                     </connections>
