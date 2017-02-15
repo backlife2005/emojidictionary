@@ -34,14 +34,26 @@ class definitionViewController: UIViewController {
         
         if emoji == "😎" {
             definitionLable.text = "A smilling face with sunglasses"
+            
+            catagoryLable.text = "Catagory: Smilley Face"
+            
+            birthYearLable.text = "2015"
         }
 
         if emoji == "😍" {
             definitionLable.text = "A smilling face with heart-shaped eyes"
+        
+            catagoryLable.text = "Catagory: Smilley Face"
+            
+            birthYearLable.text = "2013"
         }
         
         if emoji == "😡" {
             definitionLable.text = "A pouting face"
+            
+            catagoryLable.text = "Catagory: Pouting Face"
+            
+            birthYearLable.text = "2010"
         }
         
         // definitionLable.text = "Hello"
